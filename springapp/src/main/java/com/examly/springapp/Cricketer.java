@@ -4,12 +4,13 @@ public class Cricketer implements Comparable<Cricketer> {
     
     private String name;
     private int age;
-   private String country;
+    private String country;
 
     public Cricketer(String name, int age, String country) {
         this.name = name;
         this.age = age;
        this.country = country;
+       System.out.println("");
     }
 
     public Cricketer() {
